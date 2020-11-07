@@ -23,6 +23,10 @@ class WakeofAshes extends Analyzer {
 
     constructor(...args) {
         super(...args);
+        this.active = this.selectedCombatant.hasTalent(SPELLS.WAKE_OF_ASHES.id);
+        if (!this.active) {
+            return;
+        }
         this.addEventListener(Events.damage.by(SELECTED_PLAYER).spell(SPELLS.WAKE_OF_ASHES), this.onWakeofAshesDamage);
         this.addEventListener(Events.cast.by(SELECTED_PLAYER).spell(SPELLS.WAKE_OF_ASHES), this.onWakeofAshesCast);
         this.addEventListener(Events.energize.by(SELECTED_PLAYER).spell(SPELLS.WAKE_OF_ASHES), this.onWakeofAshesEnergize);

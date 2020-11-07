@@ -120,11 +120,6 @@ const spells: SpellList = {
     name: 'Turn Evil',
     icon: 'ability_paladin_turnevil',
   },
-  SENSE_UNDEAD: {
-    id: 5502,
-    name: 'Sense Undead',
-    icon: 'spell_holy_senseundead',
-  },
 
   // Holy Paladin:
   MASTERY_LIGHTBRINGER: {
@@ -375,9 +370,9 @@ const spells: SpellList = {
     name: 'Greater Blessing of Wisdom',
     icon: 'spell_holy_greaterblessingofwisdom',
   },
-  FIRES_OF_JUSTICE_BUFF: {
+  THE_FIRES_OF_JUSTICE_BUFF: {
     id: 209785,
-    name: 'Fires of Justice',
+    name: 'The Fires of Justice',
     icon: 'spell_holy_crusaderstrike',
   },
   ART_OF_WAR: {
@@ -396,7 +391,7 @@ const spells: SpellList = {
     icon: 'spell_holy_sealofblood',
   },
   EXECUTION_SENTENCE_DEBUFF: {
-    id: 343257,
+    id: 267799,
     name: 'Execution Sentence',
     icon: 'spell_paladin_executionsentence',
   },
@@ -409,11 +404,6 @@ const spells: SpellList = {
     id: 336872,
     name: 'Final Verdict',
     icon: 'spell_paladin_templarsverdict',
-  },
-  HAND_OF_HINDRANCE: {
-    id: 183218,
-    name: 'Hand of Hindrance',
-    icon: 'ability_paladin_handofhindrance',
   },
 
 	// Protection
